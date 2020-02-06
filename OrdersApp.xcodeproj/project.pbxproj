@@ -7,23 +7,53 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		86050B5B23EB609500CBD80B /* InputOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86050B5A23EB609500CBD80B /* InputOrderViewController.swift */; };
+		86050B5D23EB60C800CBD80B /* InputOrderPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86050B5C23EB60C800CBD80B /* InputOrderPresenter.swift */; };
+		8654290723EC256B00A31914 /* FiltersHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8654290623EC256B00A31914 /* FiltersHandler.swift */; };
+		8654290923EC26AD00A31914 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8654290823EC26AD00A31914 /* Date.swift */; };
 		868CA02423EB259A002A7B2A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868CA02323EB259A002A7B2A /* AppDelegate.swift */; };
-		868CA02623EB259A002A7B2A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868CA02523EB259A002A7B2A /* SceneDelegate.swift */; };
-		868CA02823EB259A002A7B2A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868CA02723EB259A002A7B2A /* ViewController.swift */; };
-		868CA02B23EB259A002A7B2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 868CA02923EB259A002A7B2A /* Main.storyboard */; };
 		868CA02D23EB259E002A7B2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 868CA02C23EB259E002A7B2A /* Assets.xcassets */; };
 		868CA03023EB259E002A7B2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 868CA02E23EB259E002A7B2A /* LaunchScreen.storyboard */; };
+		868CA03823EB2619002A7B2A /* OrdersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868CA03723EB2619002A7B2A /* OrdersViewController.swift */; };
+		868CA03A23EB2681002A7B2A /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868CA03923EB2681002A7B2A /* NetworkService.swift */; };
+		868CA03C23EB26D3002A7B2A /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868CA03B23EB26D3002A7B2A /* HTTPMethod.swift */; };
+		868CA03E23EB2976002A7B2A /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868CA03D23EB2976002A7B2A /* Order.swift */; };
+		868CA04023EB2B89002A7B2A /* Orders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868CA03F23EB2B89002A7B2A /* Orders.swift */; };
+		868CA04623EB5A03002A7B2A /* OrdersPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868CA04523EB5A03002A7B2A /* OrdersPresenter.swift */; };
+		868CA04923EB5B3D002A7B2A /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868CA04823EB5B3D002A7B2A /* UIViewController.swift */; };
+		868CA04C23EB5BF1002A7B2A /* OrderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868CA04B23EB5BF1002A7B2A /* OrderCell.swift */; };
+		86D6381423EB63FF00AAB629 /* OrderValueTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D6381323EB63FF00AAB629 /* OrderValueTextField.swift */; };
+		86D6381623EB67B000AAB629 /* DateOfBirthdayTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D6381523EB67B000AAB629 /* DateOfBirthdayTextField.swift */; };
+		86D6381823EB693C00AAB629 /* GenderTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D6381723EB693C00AAB629 /* GenderTextField.swift */; };
+		86F6C8D723EC122E008AEADA /* InputType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F6C8D623EC122E008AEADA /* InputType.swift */; };
+		86F6C8D923EC185E008AEADA /* NSNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F6C8D823EC185E008AEADA /* NSNotification.swift */; };
+		86F6C8DC23EC1EA1008AEADA /* FiltersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F6C8DB23EC1EA1008AEADA /* FiltersViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		86050B5A23EB609500CBD80B /* InputOrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputOrderViewController.swift; sourceTree = "<group>"; };
+		86050B5C23EB60C800CBD80B /* InputOrderPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputOrderPresenter.swift; sourceTree = "<group>"; };
+		8654290623EC256B00A31914 /* FiltersHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiltersHandler.swift; sourceTree = "<group>"; };
+		8654290823EC26AD00A31914 /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
 		868CA02023EB259A002A7B2A /* OrdersApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OrdersApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		868CA02323EB259A002A7B2A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		868CA02523EB259A002A7B2A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		868CA02723EB259A002A7B2A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		868CA02A23EB259A002A7B2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		868CA02C23EB259E002A7B2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		868CA02F23EB259E002A7B2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		868CA03123EB259E002A7B2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		868CA03723EB2619002A7B2A /* OrdersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersViewController.swift; sourceTree = "<group>"; };
+		868CA03923EB2681002A7B2A /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		868CA03B23EB26D3002A7B2A /* HTTPMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
+		868CA03D23EB2976002A7B2A /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		868CA03F23EB2B89002A7B2A /* Orders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Orders.swift; sourceTree = "<group>"; };
+		868CA04523EB5A03002A7B2A /* OrdersPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersPresenter.swift; sourceTree = "<group>"; };
+		868CA04823EB5B3D002A7B2A /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		868CA04B23EB5BF1002A7B2A /* OrderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderCell.swift; sourceTree = "<group>"; };
+		86D6381323EB63FF00AAB629 /* OrderValueTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderValueTextField.swift; sourceTree = "<group>"; };
+		86D6381523EB67B000AAB629 /* DateOfBirthdayTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateOfBirthdayTextField.swift; sourceTree = "<group>"; };
+		86D6381723EB693C00AAB629 /* GenderTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenderTextField.swift; sourceTree = "<group>"; };
+		86F6C8D623EC122E008AEADA /* InputType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputType.swift; sourceTree = "<group>"; };
+		86F6C8D823EC185E008AEADA /* NSNotification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSNotification.swift; sourceTree = "<group>"; };
+		86F6C8DB23EC1EA1008AEADA /* FiltersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiltersViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +67,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		86050B5823EB607300CBD80B /* Orders */ = {
+			isa = PBXGroup;
+			children = (
+				868CA04A23EB5BE1002A7B2A /* Cells */,
+				868CA03723EB2619002A7B2A /* OrdersViewController.swift */,
+				868CA04523EB5A03002A7B2A /* OrdersPresenter.swift */,
+			);
+			path = Orders;
+			sourceTree = "<group>";
+		};
+		86050B5923EB607F00CBD80B /* InputOrder */ = {
+			isa = PBXGroup;
+			children = (
+				86D6381223EB63E000AAB629 /* Views */,
+				86050B5A23EB609500CBD80B /* InputOrderViewController.swift */,
+				86050B5C23EB60C800CBD80B /* InputOrderPresenter.swift */,
+			);
+			path = InputOrder;
+			sourceTree = "<group>";
+		};
 		868CA01723EB259A002A7B2A = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +106,90 @@
 		868CA02223EB259A002A7B2A /* OrdersApp */ = {
 			isa = PBXGroup;
 			children = (
-				868CA02323EB259A002A7B2A /* AppDelegate.swift */,
-				868CA02523EB259A002A7B2A /* SceneDelegate.swift */,
-				868CA02723EB259A002A7B2A /* ViewController.swift */,
-				868CA02923EB259A002A7B2A /* Main.storyboard */,
-				868CA02C23EB259E002A7B2A /* Assets.xcassets */,
-				868CA02E23EB259E002A7B2A /* LaunchScreen.storyboard */,
+				868CA04423EB59EA002A7B2A /* Main */,
+				868CA04323EB59DF002A7B2A /* Services */,
+				868CA04223EB59D0002A7B2A /* Models */,
+				868CA04123EB59BE002A7B2A /* Utils */,
 				868CA03123EB259E002A7B2A /* Info.plist */,
 			);
 			path = OrdersApp;
+			sourceTree = "<group>";
+		};
+		868CA04123EB59BE002A7B2A /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				868CA04723EB5B2D002A7B2A /* Extensions */,
+				868CA02323EB259A002A7B2A /* AppDelegate.swift */,
+				868CA02C23EB259E002A7B2A /* Assets.xcassets */,
+				868CA02E23EB259E002A7B2A /* LaunchScreen.storyboard */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		868CA04223EB59D0002A7B2A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				868CA03B23EB26D3002A7B2A /* HTTPMethod.swift */,
+				868CA03D23EB2976002A7B2A /* Order.swift */,
+				868CA03F23EB2B89002A7B2A /* Orders.swift */,
+				86F6C8D623EC122E008AEADA /* InputType.swift */,
+				8654290623EC256B00A31914 /* FiltersHandler.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		868CA04323EB59DF002A7B2A /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				868CA03923EB2681002A7B2A /* NetworkService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		868CA04423EB59EA002A7B2A /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				86F6C8DA23EC1E8B008AEADA /* Filters */,
+				86050B5923EB607F00CBD80B /* InputOrder */,
+				86050B5823EB607300CBD80B /* Orders */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		868CA04723EB5B2D002A7B2A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				868CA04823EB5B3D002A7B2A /* UIViewController.swift */,
+				86F6C8D823EC185E008AEADA /* NSNotification.swift */,
+				8654290823EC26AD00A31914 /* Date.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		868CA04A23EB5BE1002A7B2A /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				868CA04B23EB5BF1002A7B2A /* OrderCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		86D6381223EB63E000AAB629 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				86D6381323EB63FF00AAB629 /* OrderValueTextField.swift */,
+				86D6381523EB67B000AAB629 /* DateOfBirthdayTextField.swift */,
+				86D6381723EB693C00AAB629 /* GenderTextField.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		86F6C8DA23EC1E8B008AEADA /* Filters */ = {
+			isa = PBXGroup;
+			children = (
+				86F6C8DB23EC1EA1008AEADA /* FiltersViewController.swift */,
+			);
+			path = Filters;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +252,6 @@
 			files = (
 				868CA03023EB259E002A7B2A /* LaunchScreen.storyboard in Resources */,
 				868CA02D23EB259E002A7B2A /* Assets.xcassets in Resources */,
-				868CA02B23EB259A002A7B2A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +262,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				868CA02823EB259A002A7B2A /* ViewController.swift in Sources */,
+				868CA04023EB2B89002A7B2A /* Orders.swift in Sources */,
+				868CA04623EB5A03002A7B2A /* OrdersPresenter.swift in Sources */,
+				8654290723EC256B00A31914 /* FiltersHandler.swift in Sources */,
+				868CA03C23EB26D3002A7B2A /* HTTPMethod.swift in Sources */,
+				86F6C8D723EC122E008AEADA /* InputType.swift in Sources */,
 				868CA02423EB259A002A7B2A /* AppDelegate.swift in Sources */,
-				868CA02623EB259A002A7B2A /* SceneDelegate.swift in Sources */,
+				868CA04C23EB5BF1002A7B2A /* OrderCell.swift in Sources */,
+				86D6381623EB67B000AAB629 /* DateOfBirthdayTextField.swift in Sources */,
+				86F6C8D923EC185E008AEADA /* NSNotification.swift in Sources */,
+				868CA03E23EB2976002A7B2A /* Order.swift in Sources */,
+				86D6381423EB63FF00AAB629 /* OrderValueTextField.swift in Sources */,
+				86050B5B23EB609500CBD80B /* InputOrderViewController.swift in Sources */,
+				86050B5D23EB60C800CBD80B /* InputOrderPresenter.swift in Sources */,
+				86D6381823EB693C00AAB629 /* GenderTextField.swift in Sources */,
+				868CA03A23EB2681002A7B2A /* NetworkService.swift in Sources */,
+				868CA04923EB5B3D002A7B2A /* UIViewController.swift in Sources */,
+				8654290923EC26AD00A31914 /* Date.swift in Sources */,
+				868CA03823EB2619002A7B2A /* OrdersViewController.swift in Sources */,
+				86F6C8DC23EC1EA1008AEADA /* FiltersViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		868CA02923EB259A002A7B2A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				868CA02A23EB259A002A7B2A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		868CA02E23EB259E002A7B2A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
