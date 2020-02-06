@@ -9,6 +9,7 @@
 import Foundation
 
 protocol InputOrderPresenter {
+    var inputType: InputType { get }
     func save(name: String, dateOfBirthday: String, gender: String, comment: String)
     func delete()
 }
@@ -18,7 +19,7 @@ final class InputOrderPresenterImpl: InputOrderPresenter {
     private let networkService: NetworkService = NetworkServiceImpl()
     
     private var order: Order?
-    private let inputType: InputType
+    let inputType: InputType
     
     private var completion: (Data?, Error?) -> Void {
         return { [weak self] data, error in

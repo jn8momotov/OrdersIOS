@@ -73,7 +73,9 @@ extension InputOrderViewController {
         addCommentLabel()
         addCommentTextView()
         addSaveButton()
-        addDeleteButton()
+        if presenter.inputType == .edit {
+            addDeleteButton()
+        }
     }
     
     private func addNameTextField() {
@@ -142,7 +144,12 @@ extension InputOrderViewController {
         saveButton.translatesAutoresizingMaskIntoConstraints = false
         view.addSubview(saveButton)
         
-        saveButton.leftAnchor.constraint(equalTo: view.centerXAnchor, constant: 8).isActive = true
+        if presenter.inputType == .new {
+            saveButton.leftAnchor.constraint(equalTo: view.leftAnchor, constant: 16).isActive = true
+        } else {
+            saveButton.leftAnchor.constraint(equalTo: view.centerXAnchor, constant: 8).isActive = true
+        }
+        
         saveButton.rightAnchor.constraint(equalTo: view.rightAnchor, constant: -16).isActive = true
         saveButton.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor, constant: -8).isActive = true
         saveButton.heightAnchor.constraint(equalToConstant: 44).isActive = true
